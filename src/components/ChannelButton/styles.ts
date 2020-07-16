@@ -26,7 +26,9 @@ export const Container = styled.div`
    &:hover, &.active {
    background-color: var(--quinary);
      
-
+   > div span {
+      
+   }
    }
 
 `;
