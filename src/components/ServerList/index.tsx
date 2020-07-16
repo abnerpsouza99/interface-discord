@@ -9,13 +9,13 @@ const ServerList: React.FC = function(){
             <Separator/>
             <ServerButton/>
             <ServerButton hasNotifications/>
-            <ServerButton mentions={5}/>
+            <ServerButton mentions={330}/>
             <ServerButton/>
             <ServerButton/>
             <ServerButton hasNotifications/>
             <ServerButton/>
-            <ServerButton/>
-            <ServerButton mentions={5}/>
+            <ServerButton mentions={15}/>
+            <ServerButton mentions={34}/>
             <ServerButton/>
         </Container>
     )
