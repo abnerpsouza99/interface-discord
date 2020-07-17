@@ -17,8 +17,15 @@ export const Button = styled.button<Props>`
     cursor: pointer;
 
     > img {
-        width: 24px;
-        height: 24px;
+        width: 52px;
+        height: 52px;
+        border-radius: 50%;
+        transition: border-radius .2s;
+    }
+
+    > img:hover {
+        border-radius: 20px;
+        transition: border-radius .2s;
     }
     
     &::before{
@@ -64,4 +71,4 @@ export const Button = styled.button<Props>`
         border-radius: 16px;
         background-color: ${props => props.isHome ? 'var(--rocketseat)' : 'var(--discord)'}
     }
-`
+`;
